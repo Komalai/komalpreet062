@@ -40,9 +40,12 @@ We are required to download and set up the following software for upcoming pract
 Download and install the above softwar
 # Day-2
 **Date:** 26th June 2025
+
 # Introduction to linux:
 ### Kernel:
 A kernel is the core component of an operating system. It is responsible for managing system resources and it acts as a bridge between hardware and software.
+![WhatsApp Image 2025-06-26 at 20 58 25_248aabb5](https://github.com/user-attachments/assets/d135bbd1-3ba7-438d-bab0-9f1ed55930a9)
+
 ### Shell:
 A shell is a program that acts as an interface between the user and the operating system kernel. It allows users to interact with the computer by typing commands.
 Analogy: Chef & Waiter in a Restaurant
