@@ -41,6 +41,8 @@ Download and install the above softwar
 # Day-2
 **Date:** 26th June 2025
 
+Our professor tells us that after we finish our work, we should help our classmates. She says helping others is not only good for them, but also helps us learn better. When we explain something to a friend, we understand it more too.
+
 # Introduction to linux:
 ### Kernel:
 A kernel is the core component of an operating system. It is responsible for managing system resources and it acts as a bridge between hardware and software.
