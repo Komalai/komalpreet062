@@ -52,6 +52,7 @@ A kernel is the core component of an operating system. It is responsible for man
 A shell is a program that acts as an interface between the user and the operating system kernel. It allows users to interact with the computer by typing commands.
 Analogy: Chef & Waiter in a Restaurant
 **Characters:**
+
  Chef → Kernel
 
  Waiter → Shell
