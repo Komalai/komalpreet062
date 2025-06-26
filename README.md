@@ -74,6 +74,39 @@ The shell is like a waiter who takes your order (command), and the kernel is lik
 2. Graphical Shell:
 A graphical shell is a user interface that lets you interact with the computer using pictures, icons, and menus, usually with a mouse.
 
+# File System Structure:
+### Root of everything: /
+|   Directory   |   purpose   |
+|---------------|-------------|
+|/bin|Contains user executable files|
+|/boot|Stores boot files needed to start (boot) the system|
+|/dev|Stores boot files needed to start (boot) the system|
+|/media|Temporarily stores external devices|
+|/mnt|Temporarily mounted filesystems|
+|/opt|Contains optional files|
+|/usr|Contains user-related programs and files|
+|/temp|Stores temporary files|
+|/sbin|Contains system binary commands|
+
+
+|   Command   |   Defination   |
+|-------------|----------------|
+|ls|Lists files and directories in the current folder.|
+|whoami|Shows the current logged-in user’s name.|
+|date|Shows the current date and time|
+|cd|Changes the current directory|
+|mkdir|Creates a new directory (folder)|
+|cat|Displays the content of a file|
+|touch|Creates a new empty file.|
+|cp|Copies files or folders|
+|pwd|Shows the current location/path|
+|whereis|Shows the location of a command|
+|whatis|Gives a brief description of a command|
+|mv|Moves or renames files and directories|
+
+
+
+
 
 
 
