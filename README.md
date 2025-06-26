@@ -75,6 +75,7 @@ The shell is like a waiter who takes your order (command), and the kernel is lik
 A graphical shell is a user interface that lets you interact with the computer using pictures, icons, and menus, usually with a mouse.
 
 # File System Structure:
+### Directories:
 ### Root of everything: /
 |   Directory   |   purpose   |
 |---------------|-------------|
@@ -88,6 +89,7 @@ A graphical shell is a user interface that lets you interact with the computer u
 |/temp|Stores temporary files|
 |/sbin|Contains system binary commands|
 
+### Commands:
 
 |   Command   |   Defination   |
 |-------------|----------------|
