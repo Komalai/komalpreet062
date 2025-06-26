@@ -106,7 +106,9 @@ A graphical shell is a user interface that lets you interact with the computer u
 |whatis|Gives a brief description of a command|
 |mv|Moves or renames files and directories|
 
+![Image](https://github.com/user-attachments/assets/b80c15ad-b914-4036-a116-7a3e00a4474d)
 
+![Image](https://github.com/user-attachments/assets/a4551a32-08a8-4804-9a1d-62d8c1e7668e)
 
 
 
