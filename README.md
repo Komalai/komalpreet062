@@ -118,8 +118,56 @@ the program we execute today :
 
 ![Image](https://github.com/user-attachments/assets/a4551a32-08a8-4804-9a1d-62d8c1e7668e)
 
+# Day - 3
+**Date -** 25th June 2025
 
+In the third day of training,first we revise previous syllabus and then we proceed further.on third day we had viva of day -1 and day - 2.
+### Permissions & Shell programming :
 
+### File and directory permissions:
+
+**chmod –** Change File Permissions
+
+chmod stands for "change mode". It is used to change the permissions of a file or directory.
+
+* chmod +x test.sh: Gives permission to run the script.
+* chmod 444 test.sh: Changes file to read-only.
+
+# Redirection :
+
+  In Linux, redirection means sending the input/output of commands to files or devices instead of the default screen  or keyboard .
+  . Overwrite Redirection (For stdout): Redirects the standard output of a command to a file. If the file exists already contain script, it will be overwritten. ">" standard output.
+  . Append Redirection (For stdout): Append the output to the file without compromising the existing data of the file.
+
+# Day - 4
+**Date -** 25th June 2025
+
+### File Compression :
+File compression is the process of reducing the file size to save space or make transfer easier. Linux provides several built-in tools to compress and extract files and directories.
+
+**Why Do We Compress Files?**
+*To save space on your computer
+*To send files faster (like in email or WhatsApp)
+*To group many files into one (e.g., a ZIP file)
+
+**Common Types of Compression**
+*ZIP – Most common (like file.zip)
+*RAR – Another type (like file.rar)
+*TAR.GZ – Common on Linux systems
+
+### gzip
+Gzip, short for GNU Zip, is a command-line compression tool commonly found on Linux systems. It utilizes the Deflatecompression algorithm to reduce the size of files, making them more manageable for storage and transmission.
+
+**Syntax**
+gzip filename
+
+### Wildcard	:
+|*|	Matches zero or more characters|	ls *.txt|	a.txt, notes.txt, file123.txt|
+|?|	Matches exactly one character|	ls file?.txt|	file1.txt, fileA.txt (not file12.txt)|
+|[ ]|	Matches one character from the set|	ls file[12].txt|	file1.txt, file2.txt|
+|[a-z]|	Matches one character from a range|	ls file[a-c].txt|	filea.txt, fileb.txt, filec.txt|
+|[! ]	Matches one character not in set	ls file|[!0-9].txt|	filea.txt, fileX.txt (not file1.txt)|
+|{ }|	Brace expansion for multiple patterns|	cp file{1,2,3}.txt /backup/|	file1.txt, file2.txt, file3.txt|
 
 
 
