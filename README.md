@@ -162,12 +162,12 @@ Gzip, short for GNU Zip, is a command-line compression tool commonly found on Li
 gzip filename
 
 ### Wildcard	:
-|*|	Matches zero or more characters|	ls *.txt|	a.txt, notes.txt, file123.txt|
-|?|	Matches exactly one character|	ls file?.txt|	file1.txt, fileA.txt (not file12.txt)|
-|[ ]|	Matches one character from the set|	ls file[12].txt|	file1.txt, file2.txt|
-|[a-z]|	Matches one character from a range|	ls file[a-c].txt|	filea.txt, fileb.txt, filec.txt|
-|[! ]	Matches one character not in set	ls file|[!0-9].txt|	filea.txt, fileX.txt (not file1.txt)|
-|{ }|	Brace expansion for multiple patterns|	cp file{1,2,3}.txt /backup/|	file1.txt, file2.txt, file3.txt|
+| * |	Matches zero or more characters |	ls *.txt|	a.txt, notes.txt, file123.txt |
+| ? |	Matches exactly one character |	ls file?.txt |	file1.txt, fileA.txt (not file12.txt) |
+| [ ] |	Matches one character from the set |	ls file[12].txt |	file1.txt, file2.txt |
+| [a-z] |	Matches one character from a range |	ls file[a-c].txt |	filea.txt, fileb.txt, filec.txt |
+| [! ] | Matches one character not in set	ls file | [!0-9].txt |	filea.txt, fileX.txt (not file1.txt) |
+| { } |	Brace expansion for multiple patterns|	cp file{1,2,3}.txt /backup/|	file1.txt, file2.txt, file3.txt|
 
 
 
