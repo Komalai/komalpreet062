@@ -197,6 +197,24 @@ World|
 |Double quotes	|" "|	Allow variable and command substitution, but prevent word splitting and globbing.|
 
 ### Hardware:
+Hardware refers to the physical parts of a computer system — the components you can see and touch. It includes everything from the keyboard and mouse to internal parts like the CPU and memory.
+
+**Various components of Hardware:**
+
+|Category|	Description	|Examples|
+|--------|-------------|--------|
+| Input Devices|	Used to enter data into the computer|	Keyboard, Mouse, Scanner, Microphone, Webcam|
+| Output Devices|	Used to display or output results from the computer|	Monitor, Printer, Speaker, Projector|
+| Processing Unit|	Performs all calculations and tasks	CPU| (Central Processing Unit)|
+| Storage Devices	|Used to store data permanently or temporarily|	Hard Drive (HDD), SSD, USB drive, CD/DVD|
+| Communication Devices|	Used for data exchange between computers|	Modem, Network Interface Card (NIC), Router|
+
+### Motherboard:
+
+The motherboard is the main printed circuit board (PCB) in a computer or electronic device. It serves as the central backbone that connects and allows communication between all hardware components such as the CPU, memory (RAM), storage devices, power supply, and peripherals.
+
+![WhatsApp Image 2025-06-30 at 11 37 51_45b351ad](https://github.com/user-attachments/assets/fa80b436-2c34-4f82-8651-92508115898b)
+
 
  **1. Basic Computer Architecture :**
  
@@ -242,9 +260,10 @@ World|
 |UPS|	Battery backup for power outages.|
 |CMOS| Battery	Maintains BIOS settings and system time.|
 |Boot| Process	Power on → ROM → Bootstrap Loader → OS loads in RAM.|
+
 ### 5. Input/Output & Display:
 
-|Componentn|Definition|
+|Component |Definition|
 |----------|----------|
 |Monitor|	Output device to display visuals.|
 |HDMI Port|	High-definition video output for projectors/displays.|
