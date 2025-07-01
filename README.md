@@ -206,19 +206,19 @@ Hardware refers to the physical parts of a computer system — the components yo
 
 |Component	|Function|
 |----------|--------|
-|CPU Socket	Holds the processor (CPU); connects it to the motherboard.|
-|RAM Slots (DIMM)	Slots to install memory modules (RAM).|
-|Chipset	Manages data flow between CPU, RAM, and peripherals (divided into Northbridge/Southbridge or SoC).|
-|BIOS/UEFI Chip	Firmware that initializes hardware and starts the boot process.|
-|Power Connectors	Connect motherboard to the power supply (usually 24-pin and 8-pin connectors).|
-|Expansion Slots (PCIe)	For adding graphics cards, sound cards, Wi-Fi cards, etc.|
-|Storage Connectors (SATA, M.2)	Connect hard drives and SSDs.|
-|CMOS Battery	Powers the BIOS memory to retain system settings when powered off.|
-|USB Headers	Connect USB ports on the front panel of the case.|
-|Front Panel Connectors	For power button, reset button, LED indicators, etc.|
-|Cooling Fan Headers	Connectors for CPU and case fans.|
-|Audio and LAN Chips	Provide onboard sound and network connectivity.|
-|I/O Ports (Back Panel)	Includes USB ports, audio jacks, HDMI/DisplayPort, Ethernet, etc.|
+|CPU Socket|	Holds the processor (CPU); connects it to the motherboard.|
+|RAM Slots (DIMM)|	Slots to install memory modules (RAM).|
+|Chipset|	Manages data flow between CPU, RAM, and peripherals (divided into Northbridge/Southbridge or SoC).|
+|BIOS/UEFI Chip|	Firmware that initializes hardware and starts the boot process.|
+|Power Connectors|	Connect motherboard to the power supply (usually 24-pin and 8-pin connectors).|
+|Expansion Slots (PCIe)|	For adding graphics cards, sound cards, Wi-Fi cards, etc.|
+|Storage Connectors (SATA, M.2)|	Connect hard drives and SSDs.|
+|CMOS Battery|	Powers the BIOS memory to retain system settings when powered off.|
+|USB Headers|	Connect USB ports on the front panel of the case.|
+|Front Panel| Connectors	For power button, reset button, LED indicators, etc.|
+|Cooling Fan| Headers	Connectors for CPU and case fans.|
+|Audio and LAN Chips|	Provide onboard sound and network connectivity.|
+|I/O Ports (Back Panel)|	Includes USB ports, audio jacks, HDMI/DisplayPort, Ethernet, etc.|
 
 **Various components of Hardware:**
 
