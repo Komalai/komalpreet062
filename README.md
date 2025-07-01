@@ -171,5 +171,105 @@ gzip filename
 | [! ] | Matches one character not in set	ls file | [!0-9].txt |	filea.txt, fileX.txt (not file1.txt) |
 | { } |	Brace expansion for multiple patterns|	cp file{1,2,3}.txt /backup/|	file1.txt, file2.txt, file3.txt |
 
+# Assignment :
+### What are escape characters:
 
+Escaping means protecting a character so the terminal doesn't give it a special meaning. Use backslash () for escaping.
 
+|Escape Character|	Meaning|	Example|	Output|
+|----------------|--------|--------|-------|
+|\n|	New line|	echo -e "Hello\nWorld"|	Hello
+World|
+|\t|	Tab space|	echo -e "Hello\tWorld"|	Hello  World|
+|\\|	Backslash (\)	|echo -e "C:\\Users"	|C:\Users|
+|\"|	Double quote (")|	echo -e "\"Hello\""|	"Hello"|
+|\'	|Single quote (')	|echo -e "It\'s fine"|	It's fine|
+|\a|	Alert (bell sound)|	echo -e "\a"|	Makes a beep sound, if enabled|
+|\b	|Backspace	|echo -e "Helloo\b"	|Hello|
+|\r|	Carriage return (overwrite line)|	echo -e "123\rAB"|	AB3 (replaces beginning chars)|
+*-e option in echo is used to enable interpretation of escape sequences.
+
+### Quoting in linux:
+
+|Quote |Type	|Symbol	|Purpose|
+|------|-----|-------|-------|
+|Single quotes|	' '|	Prevent all interpretation of special characters. Everything is taken literally.|
+|Double quotes	|" "|	Allow variable and command substitution, but prevent word splitting and globbing.|
+
+### Hardware:
+
+ **1. Basic Computer Architecture :**
+ 
+|Term	|Definition|
+|-----|----------|
+|PC |(Hardware)	Physical components of a computer.|
+|System Software|	OS installed on hardware (e.g., Windows, Ubuntu).|
+|Application Software|	Installed on OS (e.g., MS Word, Chrome, VLC).|
+
+**2. CPU & Internal Components :**
+
+|Component	|Definition|
+|----------|----------|
+|CPU|	Central Processing Unit; brain of the computer.|
+|Motherboard|	Main circuit board connecting all components.|
+|RAM|	Volatile memory; data lost on shutdown.|
+|ROM|	Non-volatile memory; stores firmware.|
+|Cache|	Very fast memory between CPU and RAM.|
+|Registers|	Small, fast memory inside CPU for temporary data.|
+|Control Unit (CU)|	Directs data flow and operations in CPU.|
+|ALU|	Performs calculations and logic.|
+|Clock|	Synchronizes CPU operations using electrical pulses.|
+|Transistors|	Basic switching units used in processing.|
+|Chipset|	Controls communication; Northbridge and Southbridge.|
+|CPU Socket|	Slot where CPU is mounted; fan usually above it.|
+
+### 3. Storage Devices :
+
+|Component|	Definition|
+|---------|-----------|
+|Hard Disk| (HDD/SSD)	Permanent storage for OS, apps, and files.|
+|RAM|	Temporary, fast memory used during system operation.|
+|Cache|	Small, faster memory for urgent data access.|
+|Floppy| Disk	Old magnetic storage medium (now obsolete).|
+|CD/DVD	|Optical media used to read/write data.|
+|BD (Blu-ray Disk)|	High-capacity optical disk for HD media and backups.|
+
+### 4. Power & Booting :
+
+|Component	|Definition|
+|----------|----------|
+|Power Supply (SMPS)|	Converts AC to DC; supplies power to components.|
+|UPS|	Battery backup for power outages.|
+|CMOS| Battery	Maintains BIOS settings and system time.|
+|Boot| Process	Power on → ROM → Bootstrap Loader → OS loads in RAM.|
+### 5. Input/Output & Display:
+
+|Componentn|Definition|
+|----------|----------|
+|Monitor|	Output device to display visuals.|
+|HDMI Port|	High-definition video output for projectors/displays.|
+|VGA Port|	Older analog video output; needs converter for HDMI.|
+|Display| Adapter	Processes and displays graphics (GPU).|
+|TV Tuner| Adapter	Enables TV signal input to PC.|
+
+### 6. Networking & Communication :
+
+|Component	|Definition|
+|----------|----------|
+|LAN (Local Area Network)|	Network connecting nearby computers.|
+|Modem|	Converts digital ↔ analog signals for internet.|
+|LAN Card / NIC|	Allows PC to connect to network via cable.|
+
+### 7. Other Components & Concepts :
+
+|Component |Definition|
+|----------|----------|
+|Drivers|	Software that lets OS interact with hardware.|
+|BIOS Chip|	Firmware chip that starts hardware and loads OS.|
+|Peripheral Devices|	External devices like mouse, keyboard, printer, etc.|
+|PCI Slots|	Expansion slots for adding cards (e.g., sound, LAN).|
+|Expansion Slots|	Slots for adding extra hardware (graphics, TV cards).|
+|SATA Ports|	Connect HDDs and SSDs to motherboard.|
+|Beep Sound|	POST error codes (e.g., via speaker/copper coil).|
+|Cooling System|	Fans or heat sinks to prevent overheating.|
+|Configuration|	System specs: RAM, CPU speed, storage, brand, e|
