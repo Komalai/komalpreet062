@@ -119,7 +119,6 @@ the program we execute today :
 ![Image](https://github.com/user-attachments/assets/a4551a32-08a8-4804-9a1d-62d8c1e7668e)
 
 # Day - 3
-**Date -** 25th June 2025
 
 In the third day of training,first we revise previous syllabus and then we proceed further.on third day we had viva of day -1 and day - 2.
 ### Permissions & Shell programming :
@@ -140,7 +139,6 @@ chmod stands for "change mode". It is used to change the permissions of a file o
   . Append Redirection (For stdout): Append the output to the file without compromising the existing data of the file.
 
 # Day - 4
-**Date -** 25th June 2025
 
 ### File Compression :
 File compression is the process of reducing the file size to save space or make transfer easier. Linux provides several built-in tools to compress and extract files and directories.
