@@ -476,3 +476,100 @@ It checks hardware before booting OS.
 |Access BIOS|	Press Del, F2, or Esc during startup|
 |Reset BIOS|	Select “Load Setup Defaults” or remove CMOS battery|
 |Update BIOS|	Download from motherboard website|
+
+# Day - 6
+# Safe Mode
+Safe Mode is a diagnostic mode in an operating system that starts the system with only essential files and drivers. It helps in fixing problems like software errors, driver conflicts, or malware.
+
+### Types :
+
+**1. Safe Mode –** Starts with basic drivers only.
+
+**2. Safe Mode with Networking –** Includes internet/network drivers.
+
+**3. Safe Mode with Command Prompt –** Opens Command Prompt instead of the normal desktop.
+
+# Recovery Tools
+Recovery tools are built-in or external tools used to troubleshoot, fix, or restore the system to a previous or working state.
+
+### Types:
+
+**System Restore –** Rolls back the system to a previous restore point.
+
+**Startup Repair –** Fixes boot-related issues.
+
+**Reset This PC –** Reinstalls Windows (with or without keeping files).
+
+**Recovery Drive or Disk –** External drive used to access recovery options.
+
+# OS Repair (Operating System Repair)
+OS Repair refers to methods used to fix corrupted or missing system files without completely reinstalling the operating system.
+
+Use repair commands:
+
+sfc /scannow – Scans and restores system files.
+DISM /Online /Cleanup-Image /RestoreHealth – Repairs corrupted Windows images.
+Bootable USB for repair and system reinstall.
+
+# Virus and Malware Symptoms
+
+* Slow performance
+* Frequent pop-ups
+* Programs crashing
+* Unknown apps installed
+* Browser redirecting to strange websites
+
+# Basic Virus/Malware Removal
+
+**Using Safe Mode –** Run antivirus in safe environment.
+
+**Using Antivirus Software –** Scan and delete threats.
+
+**Using Malware Removal Tools –** Like Malwarebytes, AdwCleaner.
+
+**Manual Removal –** Deleting infected files and apps.
+
+**Resetting System –** Reinstall OS if damage is severe.
+
+# Ways to back up Windows:
+
+**1. File History -** Backs up personal files (Documents, Pictures, etc.) to an external drive automatically.
+
+**2. Backup and Restore (Windows 7) -** Creates regular backups or a full system image. Still available in newer Windows versions.
+
+**3. System Image Backup -** Makes a complete copy of your system, including OS and settings. Useful for full recovery.
+
+**4. OneDrive (Cloud Backup) -** Backs up important folders (Desktop, Documents, Pictures) to the cloud.
+
+**5. Manual Backup -** Copy important files manually to an external hard drive or USB.
+
+**6. Third-Party Backup Tools -** Use software like Acronis, Macrium Reflect, or EaseUS for full or scheduled backups.
+
+# RJ45 (Registered Jack 45) :
+RJ45 is a standard connector used to connect computers and networking devices like routers and switches using Ethernet cables.
+
+### Key Points about RJ45:
+
+# How to Make a RJ‐45 Cable:
+1. Strip the cable to remove 1 inch of the outer sheath.
+2. Untwist and straighten the wires inside of the cable
+3. Arrange the wires into the right order as following.
+
+|Pin| Number	Wire Color (T568B)	|
+|---|---------------------------|
+|1|	White Orange	|
+|2|	Orange	Transmit| 
+|3|	White Green	Receive| 
+|4|	Blue	Unused |
+|5|	White Blue	Unused |
+|6|	Green	Receive |
+|7|	White Brown	Unused |
+|8|	Brown|
+
+![image](https://github.com/user-attachments/assets/25b3e872-9f82-440a-94f3-ea12c0dc3429)
+
+4. Trim the wires into an even line 1⁄2 inch (13 mm) from sheathing
+5. Insert the wires into the RJ-45 connector.
+6. Stick the connector into the crimping part of the tool and squeeze twice.
+7. Remove the cable from the tool and check that all of the pins are down & test the cable.
+
