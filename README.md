@@ -566,7 +566,7 @@ RJ45 is a standard connector used to connect computers and networking devices li
 |7|	White Brown	Unused |
 |8|	Brown|
 
-![image](https://github.com/user-attachments/assets/25b3e872-9f82-440a-94f3-ea12c0dc3429)
+![image](https://github.com/user-attachments/assets/08b500e9-2e5c-4696-9c11-00a7df39b5d0)
 
 4. Trim the wires into an even line 1⁄2 inch (13 mm) from sheathing
 5. Insert the wires into the RJ-45 connector.
