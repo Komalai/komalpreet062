@@ -571,3 +571,30 @@ RJ45 is a standard connector used to connect computers and networking devices li
 6. Stick the connector into the crimping part of the tool and squeeze twice.
 7. Remove the cable from the tool and check that all of the pins are down & test the cable.
 
+# Day -7
+# Networking  Basics
+### Hosts :
+A host refers to any device that connects to a network and is capable of sending or receiving data. This includes:
+
+* Computers (Desktops, Laptops)
+
+* Servers
+
+* Smartphones
+
+* Printers
+
+* IP cameras
+
+* IoT devices (like smart TVs, smart bulbs, etc.)
+
+![host](https://github.com/user-attachments/assets/1beb5235-156d-475e-ac26-dc22f161f254)
+
+
+
+
+
+
+
+
+
