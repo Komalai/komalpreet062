@@ -132,11 +132,41 @@ chmod stands for "change mode". It is used to change the permissions of a file o
 * chmod +x test.sh: Gives permission to run the script.
 * chmod 444 test.sh: Changes file to read-only.
 
+![read-only](https://github.com/user-attachments/assets/13af4914-f049-4dac-bbeb-7170ce1fea39)
+
+![read-only_result](https://github.com/user-attachments/assets/891763d2-97eb-4698-82e3-52c5452a71b7)
+
+
 # Redirection :
 
   In Linux, redirection means sending the input/output of commands to files or devices instead of the default screen  or keyboard .
   . Overwrite Redirection (For stdout): Redirects the standard output of a command to a file. If the file exists already contain script, it will be overwritten. ">" standard output.
   . Append Redirection (For stdout): Append the output to the file without compromising the existing data of the file.
+
+# Assignment:
+### Shell programming:
+**Use of variables:**
+
+
+![ubuntu missing5](https://github.com/user-attachments/assets/76e2def2-a3ef-4422-913c-88e6028a3faa)
+
+![ubuntu missing4 1](https://github.com/user-attachments/assets/a606ddff-e0f5-4453-95d9-dc154e4b180d)
+
+**Multiplication table of any number:**
+
+
+![WhatsApp Image 2025-07-03 at 20 59 51_68994e28](https://github.com/user-attachments/assets/82850072-ee10-4f81-be96-63960a0f9aa6)
+
+
+![table](https://github.com/user-attachments/assets/b94a8d17-57ac-4fbf-a7cd-7a466244c0a3)
+
+**Comparing two variables:**
+
+![image](https://github.com/user-attachments/assets/e76e03f5-ce3c-4cda-96a4-a1f86d112395)
+
+
+![compare](https://github.com/user-attachments/assets/0fa465ce-2719-4282-bd4a-ed202734eb80)
+
 
 # Day - 4
 
