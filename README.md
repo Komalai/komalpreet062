@@ -114,9 +114,9 @@ A graphical shell is a user interface that lets you interact with the computer u
 
 the program we execute today :
 
-![Image](https://github.com/user-attachments/assets/b80c15ad-b914-4036-a116-7a3e00a4474d)
+![ubuntu-day2 1](https://github.com/user-attachments/assets/dc8548b1-6be9-4498-bcf0-5b72d6b8f99c)
 
-![Image](https://github.com/user-attachments/assets/a4551a32-08a8-4804-9a1d-62d8c1e7668e)
+![ubuntu-day2 2](https://github.com/user-attachments/assets/ba72d5c4-94a8-43a4-97ad-be93eb6ff9b6)
 
 # Day - 3
 
