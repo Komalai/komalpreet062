@@ -776,4 +776,88 @@ Dividing a large network into smaller, more manageable sub-networks. It helps to
 
 ![image](https://github.com/user-attachments/assets/3dae5fc9-981f-4c78-b36a-b41a616dffcb)
 
-**Some other small concepts:**
+### Subnet Mask :
+A subnet mask is a 32-bit number used to separate the network part and the host part of an IP address. It helps identify which portion of the IP address refers to the network and which part refers to the host within that network.
+
+* Example:
+For IP 192.168.1.10 and subnet mask 255.255.255.0,
+
+255.255.255.0 means the first 3 octets are the network part,
+
+The last octet is for hosts.
+### MAC (Media Access Control Address):
+
+**Nature:** A unique, 12-character hexadecimal (alphanumeric) attribute used to identify individual electronic devices on a network.
+Distinction from IP Address:
+**MAC Address:** Identifies the physical location of a device within a local network. It's like your permanent home address. The manufacturer provides it.
+**IP Address:** Signifies the device's global or internet-accessible identity. It's more like a temporary vacation rental address, changing depending on your network connection.
+
+### DNS (Domain Name System):
+It is a naming system for computers, service etc connected to the Internet or a private network. It translates domain names (www.google.com) into machine-readable IP addresses (172.217.160.142).
+
+**Default Gateway:**
+Its a device (typically a router) that acts as a pathway for data to leave a local network and reach other networks, including the internet.
+
+### CIDR (Classless Inter-Domain Routing):
+Modern method for IP allocation and routing, replacing classful addressing with more flexible network sizing (e.g., /24).
+**Types of Cables**
+**Twisted Pair:**
+Types: Shielded (STP) and Unshielded (UTP).
+Use: LANs (Ethernet).
+**Coaxial:**
+Use: TV networks, older computer networks.
+**Fiber-Optic:**
+Use: High-speed networks, long distances (most commonly used today).
+
+# Numerical:
+
+For 205.150.65.0/26. Find:
+Subset mask
+Number of subsets
+Number of hosts
+Network IP
+Broadcast IP.
+
+**Solution:**
+1. Subnet Mask
+/26 means 26 bits are used for the network portion.
+
+So, the subnet mask in decimal is:
+
+Copy
+Edit
+11111111.11111111.11111111.11000000 → 255.255.255.192
+Subnet Mask = 255.255.255.192
+
+2. Number of Subnets
+Given: It's from Class C (default /24), and we're using /26
+
+Subnet bits = 26 - 24 = 2 bits
+
+Number of subnets = 2² = 4
+
+Number of Subnets = 4
+
+3. Number of Hosts per Subnet
+Host bits = 32 - 26 = 6 bits
+
+Number of hosts = 2⁶ - 2 = 64 - 2 = 62
+(Subtract 2 for Network & Broadcast addresses)
+
+Number of Hosts = 62 per subnet
+
+4. Network IP (of first subnet)
+Subnet range = 2⁶ = 64 IPs per subnet
+
+First subnet starts at:
+
+Network IP = 205.150.65.0
+
+5. Broadcast IP (of first subnet)
+Broadcast = Last IP of the subnet
+
+First subnet = 205.150.65.0 – 205.150.65.63
+
+Broadcast IP = 205.150.65.63
+
+
