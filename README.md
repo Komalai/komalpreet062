@@ -590,11 +590,190 @@ A host refers to any device that connects to a network and is capable of sending
 
 ![host](https://github.com/user-attachments/assets/1beb5235-156d-475e-ac26-dc22f161f254)
 
+# Network :
+A network is a group of two or more connected devices (like computers, servers, or mobile phones) that are linked together to share resources, exchange data, and communicate with each other. These devices are connected using wired (like Ethernet cables) or wireless (like Wi-Fi) communication methods.
 
+**Key Features:**
+Data sharing (files, messages)
 
+Resource sharing (printers, internet)
 
+Communication (email, video calls)
 
+Centralized or distributed control
 
+# IP Address:
+An IP address (Internet Protocol address) is a unique number assigned to each device connected to a network. It helps in identifying and locating devices so they can communicate with each other over the internet or a local network.
 
+### Types of IP Addresses
+**1. Public IP Address :** Assigned to your network by your Internet Service Provider (ISP), allowing devices within your network to communicate with the internet.
 
+**2.Private IP Address :** Used within a private network (e.g., home or office) and not routable over the internet. Devices within the same local network communicate using private IPs.
 
+### Properties of an IP Address:
+**1. Unique**
+* Every IP address must be unique within a network.
+
+* This means no two devices on the same network can have the same IP address.
+
+* If two devices have the same IP, it leads to IP address conflicts, and communication may fail.
+
+* Example: If your laptop has the IP 192.168.1.10, no other device in that network can use the same address at the same time.
+
+**2. Universal**
+* IP addresses follow a universal standard that is understood worldwide.
+
+* No matter where you are, IP addresses follow the same format (IPv4 or IPv6).
+
+* This allows devices from different parts of the world to communicate with each other over the internet.
+
+* It ensures global connectivity and compatibility between networks and devices.
+
+### IPv4 (Internet Protocol Version 4):
+**Address Length:**
+
+* IPv4 uses a 32-bit address format.
+
+* This means the IP address is made up of 32 binary digits (0s and 1s).
+
+**Notation:**
+
+* IPv4 addresses are written in decimal format.
+
+* The 32 bits are divided into 4 groups, called octets.
+
+* Each octet is separated by a dot (.).
+
+* Each octet can range from 0 to 255.
+
+* Example: 192.168.1.1.
+
+**Address Space:**
+
+* Since IPv4 uses 32 bits, it can have 2³² = 4,294,967,296 unique addresses.
+
+* This gives approximately 4.3 billion possible IP addresses.
+
+* Due to the large number of internet-connected devices, this space is becoming exhausted.
+
+### IPv6 Explanation in Points
+**Address Length:**
+
+* IPv6 uses a 128-bit address format.
+
+* This means each IP address is made up of 128 binary digits (0s and 1s).
+
+* It provides a much larger range than IPv4.
+
+**Notation:**
+
+* IPv6 addresses are written in hexadecimal format.
+
+* The 128 bits are divided into 8 groups, each containing 4 hexadecimal digits.
+
+* Groups are separated by colons (:).
+
+* Example: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+**Address Space:**
+
+* IPv6 provides 2¹²⁸ = 340 undecillion unique addresses.
+
+* This is enough to assign trillions of addresses to every person or device on Earth.
+
+* The huge space ensures scalability for the future internet.
+
+### IPv4 vs IPv6:
+
+|Feature|	IPv4|	IPv6|
+|-------|-----|-----|
+|Address Length|	32 bits (4 octets)|	128 bits (16 octets)|
+|Address Format|	Decimal (e.g., 192.168.1.1)|	Hexadecimal (e.g., 2001:0db8::1)|
+|Address Space|	~4.3 billion addresses|	~340 undecillion addresses|
+|Configuration|	Manual or DHCP|	Auto-configuration (SLAAC) or DHCPv6|
+
+![IP](https://github.com/user-attachments/assets/693b218c-c492-4a09-9aef-d6f8d4343d47)
+
+# Notation:
+### Binary Notation (used internally in networking)
+* In binary notation, an IP address is written in binary (base-2) numbers — using only 0s and 1s.
+
+* IPv4 addresses are made up of 32 bits, which are grouped into 4 sets of 8 bits (called octets).
+
+* Computers use this format to understand and process IP addresses.
+
+* Example:
+Binary: 11000000.10101000.00000001.00000001
+This represents the IP address in binary form.
+
+### 2. Dotted Decimal Notation (used by humans)
+* In dotted decimal notation, the 32-bit binary address is converted into 4 decimal numbers.
+
+* Each 8-bit binary group (octet) is converted to a number between 0 and 255.
+
+* The four decimal numbers are separated by dots (.).
+
+* This is the standard readable format for IPv4 addresses.
+
+* Example:
+Binary:      11000000.10101000.00000001.00000001  
+Decimal:     192      .168      .1        .1  
+IPv4 Address: 192.168.1.1
+
+# Classful Addressing in IP (IPv4)
+Classful addressing is a system used in IPv4 to divide the IP address space into five classes (A to E) based on the first few bits of the IP address. Each class has a different range, size of network and host portions, and specific use.
+
+This method helps in identifying how much of the IP address is used for the network part and how much is used for the host part.
+
+### Structure of IPv4 Address:
+* IPv4 address = 32 bits
+
+* Divided into network part and host part (depending on the class)
+
+**IP Address Classes:**  
+|Class|	Starting Bits|	Range of First Octet|	Network/Host Bits	|No. of Hosts	Use|
+|-----|--------------|---------------------|-------------------|----------------|
+|A|	0xxxxxxx|	1 – 126|	8 bits (N) / 24 bits (H)|	~16 million per network	Large networks|
+|B|	10xxxxxx|	128 – 191|	16 bits (N) / 16 bits (H)|	~65,000 per network	Medium-sized networks|
+|C|	110xxxxx|	192 – 223|	24 bits (N) / 8 bits (H)|	254 hosts per network	Small networks|
+|D|	1110xxxx|	224 – 239|	Not divided (multicast)|	Not for host addressing	Multicast communication|
+|E|	1111xxxx|	240 – 255|	Reserved	Not used for devices|	Research & Experimental use|
+
+ **Key Points of Classful Addressing:**
+* Divides IP addresses into fixed classes (A–E).
+
+* Helps in identifying the size of the network.
+
+* Simple but wastes IP addresses (not efficient).
+
+* Replaced by Classless Addressing (CIDR) for better IP utilization.
+
+![462012671-628b0cc6-8c90-454d-bccd-ac12a5129733](https://github.com/user-attachments/assets/b3f6a8cc-aad9-4817-8579-827996df669d)
+
+# Broadcast vs. Multicast vs. Unicast :
+
+|Parameters|	Unicast|	Broadcast|	Multicast|
+|----------|--------|----------|----------|
+|Basics|	There is only one receiver and one sender.|	There are multiple receivers and one sender.|	There are multiple receivers and multiple senders.|
+|Meaning and Definition|	Unicast is used to transfer data from a single sender to a single recipient.|	Broadcast sends data from one sender to all devices on a network.|	Multicast sends data from one or more senders to a selected group of receivers.|
+|Mapping|	One-to-one type of communication.|	One-to-many type of communication.|	Many-to-many type of communication.|
+|Uses|	Used for direct communication like web browsing, emails, etc.|	Used in TV/radio networks, ARP, DHCP discovery, etc.|	Used in stock exchanges, live video streaming, multimedia delivery.|
+
+# Subnetting:
+Subnetting is the process of dividing a large IP network into smaller, manageable sub-networks called subnets. It helps in efficient use of IP addresses, reduces network traffic, and improves security by isolating different parts of a network.
+or 
+Dividing a large network into smaller, more manageable sub-networks. It helps to utilize the network bandwidth in more intelligent way.
+
+* Bandwidth: Capacity of network; data transmission rate (e.g., Mbps). Should be maximum.
+
+* Latency: Delay in data transmission. Should be minimum.
+
+* Host Bits: Denoted by '0's in subnet mask.
+
+* Network IP: First IP of a subnet (cannot be assigned to host).
+
+* Broadcast IP: Last IP of a subnet (cannot be assigned to host).
+
+![image](https://github.com/user-attachments/assets/3dae5fc9-981f-4c78-b36a-b41a616dffcb)
+
+**Some other small concepts:**
