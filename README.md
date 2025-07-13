@@ -1125,11 +1125,11 @@ Semantic HTML refers to the use of HTML5 tags that clearly describe the purpose 
 **Common Semantic Tags**
 |Tag	|Purpose|
 |----|-------|
-|<header>|	Top section of page (logo, nav, title, etc.)|
-|<footer>|	Bottom section of page (copyright, links)|
-|<nav>|	Navigation links to other pages|
-|<section>|	A thematic grouping of content|
-|<article>|	Self-contained content (e.g., blog post, news item)|
+|header|	Top section of page (logo, nav, title, etc.)|
+|footer	Bottom section of page (copyright, links)|
+|nav|	Navigation links to other pages|
+|section|	A thematic grouping of content|
+|article|	Self-contained content (e.g., blog post, news item)|
 # Example of Sementic HTML:
 <img width="613" height="481" alt="image" src="https://github.com/user-attachments/assets/05bb47dc-0f15-49c5-bcac-2c6fb6970afc" />
 <img width="444" height="323" alt="image" src="https://github.com/user-attachments/assets/c0059037-d33d-4613-ae8d-83a14415a66d" />
@@ -1257,6 +1257,7 @@ Move into the project folder:
 
 # Step 2: Check Git Status
 Use this to see changes or file status:
+<img width="1118" height="280" alt="image" src="https://github.com/user-attachments/assets/f3177e01-249b-4ec5-9e7b-ba9cefc87e52" />
 
 If it says "Up to date", everything is in sync
 
