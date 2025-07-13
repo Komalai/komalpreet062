@@ -1072,7 +1072,7 @@ Work alongside CSS (design) and JavaScript (functionality)
 |---|--------|
 |<!DOCTYPE html>|	Tells browser it's an HTML5 document|
 |<html>|	Root of the page|
-|<head>|	Metadata, title, and links|
+| <head> |	Metadata, title, and links|
 |<title>|	Title shown in the browser tab|
 |<body>|	Content displayed on the page|
 
