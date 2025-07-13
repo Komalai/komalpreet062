@@ -1070,27 +1070,27 @@ Work alongside CSS (design) and JavaScript (functionality)
 # Tag Breakdown:
 |Tag|	Meaning|
 |---|--------|
-|<!DOCTYPE html>|	Tells browser it's an HTML5 document|
-|<html>|	Root of the page|
-| <head> |	Metadata, title, and links|
-|<title>|	Title shown in the browser tab|
-|<body>|	Content displayed on the page|
+|!DOCTYPE html|	Tells browser it's an HTML5 document|
+|html|	Root of the page|
+| head |	Metadata, title, and links|
+|title|	Title shown in the browser tab|
+|body|	Content displayed on the page|
 
 **Common HTML Tags**
 
 |Tag|	Name|	Purpose & Example|
 |---|-----|------------------|
-|<h1> to <h6>|	Headings	|<h1>Main Title</h1> (largest to smallest)|
-|<p>	|Paragraph|	<p>This is a paragraph.</p>|
-|<a>|	Anchor (Link)|	<a href="https://google.com">Visit Google</a>|
-|<img>|	Image|	<img src="image.jpg" alt="description">|
-|<ul>, <ol>|	Unordered/Ordered List|	<ul><li>Item</li></ul>|
-|<table>|	Table|	Used for rows and columns|
-|<form>|	Form|	For user input (textboxes, buttons)|
-|<br>|	Line Break|	Inserts a new line|
-|<hr>|	Horizontal Rule|	Adds a horizontal line|
-|<div>|	Division	|Used to group content (block element)|
-|<span>|	Inline Container|	Used to style small inline content|
+|h1 to h6|	Headings	|<h1>Main Title</h1> (largest to smallest)|
+|p	|Paragraph|	<p>This is a paragraph.</p>|
+|a|	Anchor (Link)|	<a href="https://google.com">Visit Google</a>|
+|img|	Image|	<img src="image.jpg" alt="description">|
+|ul, ol|	Unordered/Ordered List|	<ul><li>Item</li></ul>|
+|table|	Table|	Used for rows and columns|
+|form|	Form|	For user input (textboxes, buttons)|
+|br|	Line Break|	Inserts a new line|
+|hr|	Horizontal Rule|	Adds a horizontal line|
+|div|	Division	|Used to group content (block element)|
+|span|	Inline Container|	Used to style small inline content|
 
 # Day-11
 
