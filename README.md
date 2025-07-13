@@ -1077,6 +1077,7 @@ Work alongside CSS (design) and JavaScript (functionality)
 |<body>|	Content displayed on the page|
 
 **Common HTML Tags**
+
 |Tag|	Name|	Purpose & Example|
 |---|-----|------------------|
 |<h1> to <h6>|	Headings	|<h1>Main Title</h1> (largest to smallest)|
@@ -1092,7 +1093,9 @@ Work alongside CSS (design) and JavaScript (functionality)
 |<span>|	Inline Container|	Used to style small inline content|
 
 # Day-11
+
 # Common Input Types
+
 HTML input fields are created using the <input> tag.
 
 |Input Type	|Purpose|	Example Code|
