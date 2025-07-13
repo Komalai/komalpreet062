@@ -890,4 +890,232 @@ First subnet = 205.150.65.0 – 205.150.65.63
 
 Broadcast IP = 205.150.65.63
 
+# Day-8
+# What is DHCP?
+DHCP stands for Dynamic Host Configuration Protocol.
+It is a network protocol used to automatically assign IP addresses and other network configuration details (like subnet mask, gateway, DNS) to devices on a network.
+
+### What does DHCP provide?
+IP Address
+
+Subnet Mask
+
+Default Gateway
+
+DNS Server addresses
+
+Lease Time (how long the IP is valid)
+
+### Real-life Examples of DHCP:
+**Home Wi-Fi:**
+When you connect your phone or laptop to your home Wi-Fi, it automatically gets an IP address. The Wi-Fi router acts as the DHCP server.
+
+**Office Network:**
+In a large company, a central DHCP server assigns IPs to hundreds of computers and printers automatically.
+
+**Public Networks (Airports, Cafes):**
+When you connect to public Wi-Fi, DHCP assigns your device a temporary IP.
+
+### Without DHCP vs With DHCP
+|Action|	Manual IP (No DHCP)|	DHCP (Automatic)|
+|Set IP Address|	You do it manually|	Given automatically|
+|Easy to Use?| No|	 Yes|
+|Error chances|	High|	Low|
+
+### Networking Commands: ping, traceroute, ifconfig
+
+**1. ping Command**
+
+**Purpose:**
+To test if a device (usually a website or IP) is reachable on a network.
+
+**How it works:**
+Sends small data packets to a target IP/host and waits for a reply.
+
+**Syntax:**
+ping [hostname or IP address]
+
+**Example:**
+ping google.com
+
+**Output Explanation:**
+* Shows response time (in ms)
+
+* Indicates if the destination is reachable
+
+* If no reply, the host might be down or blocked
+**In Linux**
+<img width="1280" height="800" alt="ping" src="https://github.com/user-attachments/assets/2bcf9e76-0c83-4c94-ac46-168f34636efb" />
+**In Window**
+<img width="562" height="339" alt="image" src="https://github.com/user-attachments/assets/7c1fc472-39b0-4fe4-83b8-1bb3bb0a2fe2" />
+
+
+### traceroute (Linux/macOS) / tracert (Windows)
+**Purpose:**
+To show the path (or route) that a packet takes to reach its destination.
+
+**How it works:**
+Displays all intermediate routers between your computer and the target.
+
+**Syntax:**
+traceroute [hostname or IP address]  # Linux/macOS
+tracert [hostname or IP address]     # Windows
+
+**Example:**
+tracert google.com     # Windows
+traceroute google.com  # Linux/macOS
+
+**Output Explanation:**
+* Shows each "hop" (router) the packet goes through
+
+* Helps find slow or failing routers
+**In Linux**
+  <img width="1280" height="800" alt="traceroute" src="https://github.com/user-attachments/assets/3bd7061e-5b78-44bc-a80c-b2459295c970" />
+**In Window**
+  <img width="806" height="703" alt="image" src="https://github.com/user-attachments/assets/56497da4-6a6f-4cfe-9472-b86646e8be0b" />
+  **Asterisks (*) in Traceroute – Meaning & Interpretation**
+  **Meaning:**
+Asterisks appear when the router does not respond within the time limit.
+It shows a timeout for that attempt.
+
+### ifconfig (Linux/macOS)
+**Purpose:**
+To view and configure the network interfaces (like Wi-Fi, Ethernet) on your device.
+
+Note: On newer Linux systems, use ip a instead of ifconfig.
+
+**Syntax:**
+ifconfig
+**Example Output:**
+eth0: flags=4163<UP,BROADCAST,RUNNING> ...
+        inet 192.168.1.5  netmask 255.255.255.0
+**What it shows:**
+IP address of each network interface
+
+MAC address
+
+Status (up/down)
+
+Packets sent/received
+  
+### Ethernet:
+It is used to connect devices with a physical cable so that they can communicate or access.
+
+**How it Works:**
+Plug one end of an Ethernet cable into your PC's network port.
+Plug the other end of the cable into a modem or router.
+Your PC can now communicate over the network and access the internet.
+**Ethernet vs. Wi-Fi:**
+|Feature|	Ethernet|	Wi-Fi|
+|Signal|	Through cable (copper, fiber)	|Through air (radio waves)
+|Speed|	faster|	Varies, can be slower than wired|
+|Stability|	More stable|	Can be affected by walls, distance.|
+|Security|	More secure|	Less secure|
+|Mobility|	No (wired)	|Yes (moves freely)|
+
+**Comparison of Network Types**
+|Network Type|	Definition	Type|
+|Ethernet|	A specific wired technology for local area networking.|	LAN Technology (Wired)|
+|Wi-Fi|	A specific wireless technology for local area networking.|	LAN Technology (Wireless)|
+|LAN|	A network connecting devices within a limited area (e.g., home, office).|	Local Network|
+|WAN|	A network that spans a large geographical area, often connecting multiple LANs.|	Wide Network|
+|Internet|	A global system of interconnected networks using the Internet Protocol (IP) suite.|Global WAN|`
+
+# Day-9
+# Introduction to HTML:
+**What is HTML?**
+HTML stands for HyperText Markup Language.
+It is the standard language used to create webpages and web applications.
+
+HTML defines the structure of a webpage using elements called tags (like <h1>, <p>, <a>, etc.).
+
+**Why is HTML important?**
+Without HTML, web pages wouldn’t exist — it provides the skeleton of all websites.
+
+It tells the browser what to display and how content is organized, such as:
+
+Headings
+
+Paragraphs
+
+Links
+
+Images
+
+Tables
+
+Forms
+
+<img width="351" height="256" alt="image" src="https://github.com/user-attachments/assets/f979d3c6-a948-4453-8d90-edba8b35672b" />
+**Output:**
+<img width="278" height="162" alt="image" src="https://github.com/user-attachments/assets/d4ed2c4b-7be7-4fc0-a097-29bd9011d465" />
+
+# Day-10
+# Introduction to HTML & Web Basics
+**What is the Web?**
+The World Wide Web (WWW) is a system where information is shared and accessed over the Internet using websites. Websites are made using HTML, CSS, and JavaScript.
+
+**What is HTML?**
+HTML (HyperText Markup Language) is the foundation of every webpage.
+**It is used to:**
+
+Structure content (headings, paragraphs, lists, links, etc.)
+
+Add elements like images, buttons, tables, and forms
+
+Work alongside CSS (design) and JavaScript (functionality)
+# Tag Breakdown:
+|Tag|	Meaning|
+|<!DOCTYPE html>|	Tells browser it's an HTML5 document|
+|<html>|	Root of the page|
+|<head>|	Metadata, title, and links|
+|<title>|	Title shown in the browser tab|
+|<body>|	Content displayed on the page|
+
+**Common HTML Tags**
+|Tag|	Name|	Purpose & Example|
+|<h1> to <h6>|	Headings	|<h1>Main Title</h1> (largest to smallest)|
+|<p>	|Paragraph|	<p>This is a paragraph.</p>|
+|<a>|	Anchor (Link)|	<a href="https://google.com">Visit Google</a>|
+|<img>|	Image|	<img src="image.jpg" alt="description">|
+|<ul>, <ol>|	Unordered/Ordered List|	<ul><li>Item</li></ul>|
+|<table>|	Table|	Used for rows and columns|
+|<form>|	Form|	For user input (textboxes, buttons)|
+|<br>|	Line Break|	Inserts a new line|
+|<hr>|	Horizontal Rule|	Adds a horizontal line|
+|<div>|	Division	|Used to group content (block element)|
+|<span>|	Inline Container|	Used to style small inline content|
+
+# Day-11
+# Common Input Types
+HTML input fields are created using the <input> tag.
+
+|Input Type	|Purpose|	Example Code|
+|text|	Single-line text input|	<input type="text" name="username">|
+|password|	Hides typed characters|	<input type="password" name="pass">|
+|email|	Accepts only email format	|<input type="email" name="email">|
+|number|	Numeric input only	|<input type="number" name="age">|
+|date|	Date picker	|<input type="date" name="dob">|
+|radio|	Choose one option from a group|	<input type="radio" name="gender">|
+|checkbox|	Multiple selections	|<input type="checkbox" name="hobby">|
+|submit|	Button to submit form	|<input type="submit" value="Submit">|
+|reset|	Clears all inputs	|<input type="reset">|
+|file|	Upload file	|<input type="file" name="upload">|
+|tel|	Telephone number input	|<input type="tel" name="phone">|
+|url| Website address	|<input type="url" name="website">|
+|color|	Pick a color	|<input type="color" name="favcolor">|
+|range|	Slider control	|<input type="range" min="1" max="10">|
+
+# Semantic HTML
+Semantic HTML refers to the use of HTML5 tags that clearly describe the purpose and meaning of the content. It helps in accessibility, SEO, and code readability.
+**Common Semantic Tags**
+|Tag	|Purpose|
+|<header>	Top section of page (logo, nav, title, etc.)|
+|<footer>	Bottom section of page (copyright, links)|
+|<nav>	Navigation links to other pages|
+|<section>	A thematic grouping of content|
+|<article>	Self-contained content (e.g., blog post, news item)|
+
+# Day-12
+**CSS Styling: Inline, Internal & External**
 
