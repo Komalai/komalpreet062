@@ -1096,6 +1096,7 @@ Work alongside CSS (design) and JavaScript (functionality)
 HTML input fields are created using the <input> tag.
 
 |Input Type	|Purpose|	Example Code|
+|-----------|-------|-------------|
 |text|	Single-line text input|	<input type="text" name="username">|
 |password|	Hides typed characters|	<input type="password" name="pass">|
 |email|	Accepts only email format	|<input type="email" name="email">|
@@ -1120,11 +1121,12 @@ HTML input fields are created using the <input> tag.
 Semantic HTML refers to the use of HTML5 tags that clearly describe the purpose and meaning of the content. It helps in accessibility, SEO, and code readability.
 **Common Semantic Tags**
 |Tag	|Purpose|
-|<header>	Top section of page (logo, nav, title, etc.)|
-|<footer>	Bottom section of page (copyright, links)|
-|<nav>	Navigation links to other pages|
-|<section>	A thematic grouping of content|
-|<article>	Self-contained content (e.g., blog post, news item)|
+|----|-------|
+|<header>|	Top section of page (logo, nav, title, etc.)|
+|<footer>|	Bottom section of page (copyright, links)|
+|<nav>|	Navigation links to other pages|
+|<section>|	A thematic grouping of content|
+|<article>|	Self-contained content (e.g., blog post, news item)|
 # Example of Sementic HTML:
 <img width="613" height="481" alt="image" src="https://github.com/user-attachments/assets/05bb47dc-0f15-49c5-bcac-2c6fb6970afc" />
 <img width="444" height="323" alt="image" src="https://github.com/user-attachments/assets/c0059037-d33d-4613-ae8d-83a14415a66d" />
